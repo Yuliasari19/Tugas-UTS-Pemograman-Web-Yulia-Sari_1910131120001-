@@ -1,0 +1,160 @@
+body{
+  background-image: url(background.jpg);
+  background-size:  100% 100%;
+  background-attachment: fixed;
+}
+
+
+.nama-web{
+   color: #fff;
+   font-size: 60px;
+   font-weight:  bold;
+   font-family: sans-serif;
+   margin-left: 45%;
+   padding-bottom: 0;
+
+}
+
+.ket-web  {
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: 48%;
+    margin-top: -50px;
+    font-size: 20px;
+}
+
+header{
+  background: #D2B48C;
+  padding-bottom: 40px;
+  padding-top: 0;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 20px;
+  border-radius: 5px;
+  ;
+}
+
+aside-top{
+   flex: 20%;
+   background: #222;
+   border-radius: 5px;
+   height: 1150px;
+}
+
+
+aside-bot{
+   flex: 20%;
+   background: #fff;
+
+   border-radius: 5px;
+   height: 350px;
+   margin-top: 1200px;
+   margin-left: -22%;
+   border: solid #D2B48C;
+   border-width:  thick;
+   padding: 10px 10px 10px 10px;
+}
+
+aside-extra{
+  flex: 20%;
+  background: #fff;
+  height: auto;
+  margin-top: 1150px;
+  margin-left: -19.3%;
+}
+
+.tag-model1{
+  color: #000000;
+  font-family: sans-serif;
+}
+
+.tag-model2{
+  color: #000000;
+  font-family: verdana;
+}
+
+.tag-model3{
+  color: #000000;
+  font-family: century;
+}
+
+.tag-model4{
+  color: #000000;
+  font-family: serif;
+}
+
+.tag-model5{
+  color: #000000;
+  font-family: courier;
+}
+
+.tag-model6{
+  color: #000000;
+  font-family: garamond;
+}
+
+
+
+section.main{
+   flex: 80%;
+   background: #fff;
+   color: #000000;
+   min-height: 530px;
+   padding: 20px 20px;
+   border-radius: 5px
+   height:auto;
+
+}
+
+
+footer{
+   background:  #D2B48C;
+   padding: 50px;
+   text-align: center;
+   margin-left: 15%;
+   margin-right: 20px;
+}
+
+.container{
+  display: -webkit-flex;
+  display: flex;
+  margin-top: none;
+  margin-left: 15%;
+  margin-right: 20px;
+}
+
+@media (max-width: 700px) {
+  .container {
+      -webkit-flex-direction:column;
+      flex-direction: column;
+  }
+}
+
+/* Navigasi */
+
+.menu {
+   padding: 15px 15px;
+}
+.menu li.top-menu{
+    float: left;
+    border: solid #fff;
+    list-style: none;
+    padding: 0px 30px 0px 30px;
+}
+
+.menu li.side-menu{
+    border: solid transparent #fff;
+    list-style: none;
+
+}
+
+.menu a{
+   display: block;
+   padding: 15px 15px;
+   list-style: none;
+   color: #fff;
+   text-decoration: none;
+}
+.menu a:hover{
+   background: #000;
+}
